@@ -1,0 +1,28 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "friend finder",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boogeybum/friendFinder.git"
+  },
+  "keywords": [
+    "friend",
+    "finder"
+  ],
+  "author": "Clayton Seastrand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boogeybum/friendFinder/issues"
+  },
+  "homepage": "https://github.com/boogeybum/friendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
