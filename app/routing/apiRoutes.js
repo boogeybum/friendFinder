@@ -7,7 +7,7 @@ module.exports = function(app) {
   });
 
   app.post("/api/friends", function(req, res) {
-      console.log("User input data: " + req.body.scores);
+    //   console.log("User input data: " + req.body.scores);
 
     // store user input (name, photo, scores)
     //=============================================
