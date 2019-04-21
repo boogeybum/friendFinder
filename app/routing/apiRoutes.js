@@ -12,12 +12,12 @@ module.exports = function(app) {
     // store user input (name, photo, scores)
     //=============================================
     var user = req.body;
-    console.log("After var declared: " + user.body);
+    console.log("After var declared: " + req.body);
     // parseInt for scores
     //=============================================
     for(var i = 0; i < user.scores.length; i++) {
       user.scores[i] = parseInt(user.scores[i]);
-      console.log("Inside for loop: " + user.body);
+    //   console.log("Inside for loop: " + req.body);
     }
 
     // default friend set, but will change to smallest score difference
