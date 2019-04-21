@@ -7,17 +7,16 @@ module.exports = function(app) {
   });
 
   app.post("/api/friends", function(req, res) {
-    
+      console.log("User input data: " + req.body.scores);
 
     // store user input (name, photo, scores)
     //=============================================
     var user = req.body;
-    console.log("After var declared: " + req.body);
+    
     // parseInt for scores
     //=============================================
     for(var i = 0; i < user.scores.length; i++) {
       user.scores[i] = parseInt(user.scores[i]);
-    //   console.log("Inside for loop: " + req.body);
     }
 
     // default friend set, but will change to smallest score difference
