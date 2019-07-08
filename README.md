@@ -8,6 +8,8 @@
 ## About
 * Friend Finder is an app that the user fills out an online survey, adds their information to the json data and returns a 'friend' with a total score that most closely matches. The provided friends is of fictional characters and their values are based off of my best guess.
 
+<img src="images/FriendFinder_Screenshot.JPG" >
+
 ## License 
 * No license explicite or implied.
 
